@@ -1,0 +1,50 @@
+
+/* Подключение less
+/*==========HTML========
+<link rel="stylesheet" href="style/main.css">
+
+/* ====Подключение RESET====
+/*==========HTML========
+<link rel="stylesheet" href="style/reset.css">
+/*==========CSS=========
+@import 'reset.css';
+
+/* Подключение стороних шрифтов 
+/*==========HTML========
+<link rel="stylesheet" href="style/Misto.ttf">
+
+/*==========CSS=========
+@font-face {
+    font-family: "misto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 130.4%;
+    /* Браузер сначала попробует найти шрифт локально */
+    /*src: local("misto"),
+         /* Если не получилось, загрузит woff2 */
+        /* url("/style/Misto.ttf") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+        /* url("/style/Misto.ttf") format("woff");
+}
+/* Переменная шрифта
+.misto() {
+    font-family: "misto", "Arial", sans-serif;
+}
+
+/*Подключение иконок FONTAWSOME 
+/*==========HTML========
+<link rel="stylesheet" href="style/fontawesome-all.min.css">
+
+
+    Цунтрировать блок, кнопку по ЦЕНТРУ
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        Центрация DIV
+        position: relative;
+        justify-content: center;
+
+
+     
